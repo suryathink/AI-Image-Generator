@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { Loader, FormField } from '../components';
+import { Loader, FormField } from '../Components';
 import { login } from '../redux/auth/authAction'
 import config from '../config'
 import { ToastContainer, toast } from 'react-toastify';

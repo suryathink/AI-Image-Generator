@@ -4,7 +4,7 @@ import axios from 'axios'
 import { useDispatch } from 'react-redux'
 import config from '../config'
 import Dialog from '../Components/Dialog'
-import { Card, Loader } from '../components';
+import { Card, Loader } from '../Components';
 import { logout } from '../redux/auth/authAction'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
