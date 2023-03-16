@@ -24,7 +24,7 @@ const CreatePost = () => {
     if (form.prompt){
         try {
           setGeneratingImg(true);
-          let response = await fetch('http://localhost:8080/api/v1/dalle',{
+          let response = await fetch('https://jade-lively-tortoise.cyclic.app/api/v1/dalle',{
             method:'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ const CreatePost = () => {
 
       try {
         const token = localStorage.getItem("token") || ""
-        const response = await fetch (`http://localhost:8080/api/v1/post` ,{
+        const response = await fetch (`https://jade-lively-tortoise.cyclic.app/api/v1/post` ,{
           method:'POST',
           headers :{
             'Content-Type':'application/json',

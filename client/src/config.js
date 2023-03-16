@@ -1,5 +1,5 @@
 const config = {
-    API_URL: 'http://localhost:8080'
+    API_URL: 'https://jade-lively-tortoise.cyclic.app'
 }
 
 export default config;
